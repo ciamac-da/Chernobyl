@@ -1,0 +1,352 @@
+body {
+    
+    font-family: 'Fjalla One', sans-serif;
+    font-size: larger;
+    color: gray;
+    margin: 0%;
+    background: url('../img/black-pattern.png');
+    text-shadow: 7px 7px 7px black;
+    font-size: 20px;
+}
+
+p {
+    line-height: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    color:gray;
+    /* padding: 5px; */
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 10px 60px;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 5;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav a {
+        color: gray;
+        /* display: flex;
+        flex-direction: row; */
+        justify-content: space-around;
+        margin: 5px;
+    
+        text-decoration: none;
+        font-size: 16px;
+}
+
+nav a:hover {
+    color: azure;
+    /* background-color: #34a4d2; */
+}
+
+li{
+    list-style: none;
+    line-height: 35px;
+}
+
+.ukraine-map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.ukraine-map img{
+    border-radius: 10px;
+}
+
+.chernobyl-photo {
+    background-image: url('../img/chernobyl.1.jpg');
+    display: flex;
+    justify-content: center;
+    height:600px;
+    /* width: 100%; */
+    /* right: 0;
+    left: 0;
+    margin-left: 0;
+    margin-right: 0; */
+    /* margin-bottom: 30px;
+    margin-top: 30px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+}
+
+.chernobyl-photo h1 {
+    margin-top: 250px;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-size: 70px;
+    text-shadow: 5px 5px 7px black;
+}
+
+.chernobyl-photo h1:hover {
+    color: grey;
+}
+
+.chernobyl2 {
+display: flex;
+justify-content: center;
+margin-bottom: 100px;
+margin-top: 100px;
+}
+
+.chernobyl2 img{
+    border-radius: 10px;
+}
+
+.one {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.two {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.three {
+    font-size: small;
+    text-align: center;
+}
+
+.four {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.chernobyl3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.chernobyl3 img{
+    border-radius: 10px;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.six {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.seven {
+    margin: 50px;
+    background-color: gray;
+    color: white;
+}
+
+.eight {
+    font-size: small;
+}
+
+.nine {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.chernobyl-video {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.chernobyl4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.chernobyl4 img{
+    border-radius: 10px;
+}
+
+.ten {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.eleven {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.twelve {
+    margin-bottom: 200px;
+}
+
+.chernobyl5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.chernobyl5 img{
+    border-radius: 10px;
+}
+
+.thirteen {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.chernobyl6 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.chernobyl6 img{
+    border-radius: 10px;
+}
+
+.chernobyl7 {
+display: flex;
+justify-content: center;
+margin-bottom: 100px;
+}
+
+.chernobyl7 img{
+    border-radius: 10px;
+}
+
+.chernobyl8 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.chernobyl8 img{
+    border-radius: 10px;
+}
+
+.chernobyl9 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.chernobyl9 img{
+    border-radius: 20px;
+}
+
+.fourteen {
+    margin-bottom: 200px;
+}
+
+.unit4 {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#cap1, #cap2, #cap3, #cap4, #cap5, #cap6, #cap7, #cap8, #cap9  {
+    height: 100px;
+}
+
+hr{
+margin-top: 150px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 50px;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+
+}
+
+#email{
+    display: flex;
+    
+    color: white;
+    font-size: 60px;
+    margin-right: 80px;
+    
+}
+
+#email:hover{
+    color: gray;
+}
+
+.fa-facebook-official{
+    display: flex;
+    color: blue;
+    margin-left: 30px;
+    
+}
+
+.fa-facebook-official:hover{
+    color: gray;
+}
+
+.fa-twitter{
+    display: flex;
+    margin-right: 45px;
+    color: #55ACEE;
+    
+}
+
+.fa-twitter:hover{
+    color: gray;
+}
+
+.fifteen {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-top: 50px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+/* comment*/
